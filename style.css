@@ -133,8 +133,9 @@ body{
 }
 .cardsContainer{
     display: flex;
+    margin:10px 0px;
     justify-content: space-between;
-    margin:10px 0px
+    flex-wrap: wrap;
 
 }
 .footer{
@@ -196,3 +197,20 @@ form input{
 form{
     text-align: center;
 }
+
+@media screen and (max-device-width: 1024px) {
+    .container{
+        width: 900px;
+    }
+
+    .cardsContainer{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        margin-bottom: 10px;
+        margin: 10px 10px;
+    }
+
+   }
