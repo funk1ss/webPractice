@@ -1,0 +1,198 @@
+a{
+    outline: none;
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.1s;
+    border-radius: 12px;
+    
+    
+}
+ul{
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.container{
+    width: 1280px;
+}
+.hat{
+    background-image: url(./img/mainImg.jpg);
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    
+
+}
+.navBar{
+    list-style-type: none;
+    display: flex;
+    justify-content: center  ;
+    margin-right: 30px;
+}
+.navBar li{
+    padding: 5px 20px;
+}
+.navBarBtn{
+    border: 2px solid white;
+    background-image: none; 
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 5px 20px;
+    margin: 12px 5px;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(206, 153, 56);
+    border-radius: 12px;
+    opacity: 0.9;
+}
+.navBarBtn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.2s;
+
+}
+.mainTextBlock{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    text-align: right;
+    margin: 400px 0px 400px 0px;
+    
+}
+.mainFirst{
+    font-size: 44px;
+    color: rgb(209, 196, 18);
+    text-shadow: 1px 1px 3px orange;
+}
+.mainSecond{
+    font-size: 75px;
+}
+.mainContent{
+    background-image: url(./img/./mainBackj.jpg);
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+.mainContentText{
+    color: rgb(206, 153, 56);
+    font-size: 40px;
+    font-style: italic;
+    text-shadow: 1px 1px 3px orange;
+    
+}
+.card{
+    width: 180px;
+    height: 270px;
+    border: 1px solid rgb(202, 142, 11);
+    background: white;
+    color: rgb(206, 153, 56);
+    text-align: center;
+    border-radius: 10px;
+}
+.cardImg img{
+    width: 150px;
+    height: 150px;
+}
+.cardButton{
+    border: 2px solid rgb(206, 153, 56);
+    background-image: none; 
+    background: transparent;
+    color: rgb(206, 153, 56);
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 5px 20px;
+    margin: 10px 5px;
+}
+.cardButton:hover{
+    background-color: rgb(206, 153, 56);
+    color: black;
+    transition: 0.2s;
+}
+.cardText{
+    margin: 10px 0px;
+    font-size: 20px;
+    font-style: italic;
+}
+.cardPrice{
+    text-decoration: underline;
+}
+.cardsContainer{
+    display: flex;
+    justify-content: space-between;
+    margin:10px 0px
+
+}
+.footer{
+    background: black;
+    display: flex;
+    justify-content: center;
+}
+.FooterText{
+    color: rgb(206, 153, 56);
+    padding: 20px;
+    display: flex;
+}
+.FooterText div{
+    margin: 5px;
+}
+.footerContent{
+    display: flex;
+    justify-content: space-between;
+}
+.aboutUsContainer{
+    background-color: rgb(221, 152, 3);
+    display: flex;
+    justify-content: center;
+}
+.aboutUsCard div{
+    
+}
+.AboutUsCardText{
+    color: rgb(22, 17, 8) ;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.AboutUsCardInfo{
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.aboutUsCard{
+    margin: 50px;
+}
+.aboutUs{
+    display: flex;
+    justify-content: space-between;
+}
+.questionForm{
+    margin: 50px;
+}
+.questionForm form{
+    display: flex;
+    flex-direction: column;
+}
+form input{
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgb(206, 153, 56) ;
+    border-radius: 10px;
+}
+form{
+    text-align: center;
+}
